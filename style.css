@@ -33,6 +33,9 @@ img {
     img {
         width: 85%;
     }
+    .navpot {
+        margin-bottom: -100px;
+    }
 }
 
 @media screen and (min-width: 400px) {
