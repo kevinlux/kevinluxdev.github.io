@@ -1,0 +1,64 @@
+body {
+    background-image: url("./option1.jpg");
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.navpot {
+    margin-top: -40px;
+    padding-bottom: -40px;
+    /* float: left; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+}
+
+img {
+    /* vertical-align: bottom; */
+    width: 30%;
+}
+
+
+.lid {
+    position: absolute;
+    /* bottom: 10px; */
+}
+
+.lid:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    img {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    img {
+        width: 20%;
+    }
+
+    .navpot {
+        margin-top: -60px;
+    }
+}
